@@ -1,4 +1,5 @@
-import React from "react";
+import Image from "next/image";
+import Head from "next/head";
 
 const Hero = () => {
   return (
@@ -6,18 +7,31 @@ const Hero = () => {
       id="hero"
       className="bg-blue-900 text-white p-8 text-center flex flex-col items-center justify-center min-h-screen animate-fade-in"
     >
+      <Head>
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+        />
+      </Head>
       <div className="img-container mb-6">
-        <img
-          className="w-32 mx-auto rounded-full"
-          src="/profile-pic.png"
+        <Image
+          src="https://drive.google.com/uc?export=view&id=1PYcNhXs23fqdMvpt2ehvfcsKadX5iBK2"
           alt="profile-pic"
+          width={300}
+          height={300}
+          className="rounded-full"
         />
       </div>
-      <h1 className="text-4xl font-bold mb-2">I craft interfaces</h1>
+      <h1 className="text-4xl font-bold mb-2 pacifico">
+        Hi, I'm S A T Y A M !
+      </h1>
+      <p className="mb-2">
+        I'm a Computer Science Engineering student with a passion for web
+        development.
+      </p>
       <p className="mb-6">
-        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-        sint. Velit officia consequat duis enim velit mollit. Exercitation
-        veniam consequat sunt nostrud amet.
+        Welcome to my portfolio! Here you'll find a showcase of my projects and
+        a glimpse into my journey as a developer.
       </p>
       <p>
         <a href="#projects" className="text-blue-300 underline">

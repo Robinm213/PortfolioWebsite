@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "@/app/navbar";
+import Navbar from "@/app/components/navbar/index";
 import Footer from "@/app/footer";
 import ProjectCard from "@/app/ProjectCard";
 import "@/app/globals.css";

@@ -87,3 +87,40 @@ body {
 .animate-fade-out {
   animation: fadeOut 1s ease-in-out;
 }
+@keyframes slide {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+/* global.css or your component's CSS file */
+@keyframes slide {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.title-animation {
+  display: inline-block;
+  animation: slide 1.5s;
+}
+/* styles/globals.css */
+.pacifico {
+  font-family: "Pacifico", cursive;
+}
+/* globals.css */
+.hidden {
+  display: none !important;
+}
+
+/* Add media query for mobile */
+@media (max-width: 767px) {
+  .lg\\:hidden {
+    display: block !important;
+  }
+}
