@@ -10,15 +10,15 @@ const Navbar = () => {
         </div>
         <ul className="flex items-center space-x-4">
           <li className="link">
-            <Link href="/projects/proj">Projects</Link>
+            <Link href="/projects/">Projects</Link>
           </li>
           <li className="link">
-            <Link href="/certificates/CertificationsPage">Achievements</Link>
+            <Link href="/certificates/">Achievements</Link>
           </li>
           <li className="link">
-            <a href="#" className="text-white hover:text-blue-300">
-              Newsletter
-            </a>
+            <Link href="/aboutme" className="text-white hover:text-blue-300">
+              About Me
+            </Link>
           </li>
           <li className="toggle-btn">
             <button className="bg-white text-blue-900 py-2 px-4 rounded-full hover:bg-blue-300">

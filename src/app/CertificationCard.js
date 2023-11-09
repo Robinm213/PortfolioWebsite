@@ -1,11 +1,13 @@
 import React from "react";
 
 const CertificateCard = ({
+  type,
   title,
   organization,
   date,
   imageUrl,
   isDigital,
+  linkUrl,
 }) => {
   return (
     <div className="bg-white p-4 mb-8 shadow-lg rounded-md transition-transform transform hover:scale-105">
@@ -25,6 +27,18 @@ const CertificateCard = ({
         <p className="text-gray-700 mb-2">{organization}</p>
         <p className="text-gray-700 mb-4">{date}</p>
       </div>
+
+      {linkUrl && (
+        <a
+          href={linkUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 hover:underline"
+        >
+          View Certificate
+        </a>
+      )}
+
       {/* Add any additional details or links here */}
     </div>
   );

@@ -48,7 +48,7 @@ const Navbar = () => {
           </li>
           <li className="link">
             <a href="#" className="text-white hover:text-blue-300">
-              Newsletter
+              About Me
             </a>
           </li>
           <li className="toggle-btn">
