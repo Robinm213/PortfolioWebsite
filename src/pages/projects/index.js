@@ -6,63 +6,43 @@ import "@/app/globals.css";
 
 const projects = [
   {
-    title: "First Website",
-    description:
-      "A personal introduction website created using HTML and CSS at the beginning of my web development journey.",
-    imageUrl:
-      "https://drive.google.com/uc?export=view&id=1_irreLjG6MnBea3XXhY7fIxWD7Yq7Gzh",
-    // https://drive.google.com/file/d/1_irreLjG6MnBea3XXhY7fIxWD7Yq7Gzh/view?usp=sharing
-    linkUrl: "https://nittaany.github.io/newme/",
-  },
-  {
-    title: "Mann Mauji",
-    description:
-      "This website serves as a platform to publicize an app, providing detailed information about its features and offering download links. Developed using HTML and CSS.",
-    imageUrl:
-      "https://drive.google.com/uc?export=view&id=1JKxE3lJNRzW31bYeQExGtsPB5hMdAQU1",
-    linkUrl: "https://nittaany.github.io/MM/",
-  },
-  {
-    title: "E-Waste Locator",
-    description:
-      "A project developed during Smart India Hackathon (SIH'23) by our team. It tracks local E-waste disposal areas and features an interactive chatbot for information about E-waste. Built with Next.js.",
-    imageUrl: "/project3.jpg",
-    linkUrl: "https://zenith-sih-1392.vercel.app/",
-  },
-  {
     title: "ATM Banking System",
     description:
       "A basic C-language mini-project created as part of my learning journey.",
-    imageUrl: "/project4.jpg",
-    linkUrl: "https://example.com/project4",
+    imageUrl:
+      "https://drive.google.com/uc?export=view&id=1BkEDzr0g3TrvLQhyFBS2042V0jdBdLxu",
+    linkUrl: null,
   },
   {
     title: "Car Rental System",
     description:
       "A basic car rental system mini-project developed during my journey of learning C++.",
-    imageUrl: "/project5.jpg",
-    linkUrl: "https://example.com/project5",
+    imageUrl:
+      "https://drive.google.com/uc?export=view&id=1Wtw2XU04tGmTMWof8aT5kQaO9vbZ0rgJ",
+    linkUrl: null,
   },
   {
     title: "Weather App",
     description:
       "A clean weather app created using Python Tkinter with API integration for live updates.",
-    imageUrl: "/project6.jpg",
-    linkUrl: "https://example.com/project6",
+    imageUrl:
+      "https://drive.google.com/uc?export=view&id=1V5nYzn0a5BEH-g6ZjgL8qBb8gtLXohsD",
+    linkUrl: null,
   },
   {
     title: "PDM - Expense Management",
     description:
       "A basic Java project utilizing Java Swing. It functions similar to the Splitwise app but with a different approach.",
     imageUrl: "/project7.jpg",
-    linkUrl: "https://example.com/project7",
+    linkUrl: null,
   },
   {
     title: "Micro-processor Based Water Level Controller",
     description:
       "A project based on Arduino Uno that monitors the water level in a tank and can control the pump accordingly.",
-    imageUrl: "/project8.jpg",
-    linkUrl: "https://example.com/project8",
+    imageUrl:
+      "https://drive.google.com/uc?export=view&id=1hc6RkYuLSvmLPYgNpeEpWLmnh9gQjbId",
+    linkUrl: null,
   },
 ];
 

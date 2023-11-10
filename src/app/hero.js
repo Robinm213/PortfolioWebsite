@@ -15,26 +15,21 @@ const Hero = () => {
       </Head>
       <div className="img-container mb-6">
         <Image
-          src="https://drive.google.com/uc?export=view&id=1PYcNhXs23fqdMvpt2ehvfcsKadX5iBK2"
+          src="https://drive.google.com/uc?export=view&id=1enOQ49RyBLc7mv9ZrKGUgggLSqjrLKbw"
           alt="profile-pic"
           width={300}
           height={300}
           className="rounded-full"
         />
       </div>
-      <h1 className="text-4xl font-bold mb-2 pacifico">
-        Hi, I'm S A T Y A M !
-      </h1>
+      <h1 className="text-4xl font-bold mb-2 pacifico">Hi, I'm S U J A L !</h1>
       <p className="mb-2">
-        I'm a Computer Science Engineering student with a passion for web
-        development.
+        I'm a Computer Science Engineering student with a passion for CYBER
+        SECURITY
       </p>
-      <p className="mb-6">
-        Welcome to my portfolio! Here you'll find a showcase of my projects and
-        a glimpse into my journey as a developer.
-      </p>
+
       <p>
-        <a href="#projects" className="text-blue-300 underline">
+        <a href="/projects/" className="text-blue-300 underline">
           Take me to the magic land ↗
         </a>
       </p>

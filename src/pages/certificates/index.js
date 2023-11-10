@@ -7,22 +7,39 @@ import "@/app/globals.css";
 const certifications = [
   {
     type: "Participation",
-    title: "  APPLICATIONS OF MACHINE LEARNING IN URBAN STUDIES",
-    organization: "ISRO",
-    date: "JUNE 2023",
+    title: "FUNDAMENTALS OF SOC",
+    organization: "PALOALTO",
+    date: null,
     imageUrl:
-      "https://drive.google.com/uc?export=view&id=1YztHuv-CNxBAcGVFSB3_0GcQpIn8fSZG",
+      "https://drive.google.com/uc?export=view&id=1rPfAwUmaxt213SrWCSgaGrHTedUh7PiR",
     linkUrl: null,
   },
   {
     type: "Participation",
-    title: "SRM CODING COMPETITION",
-    organization: "Coding Ninjas",
+    title: "FUNDAMENTALS OF SOC",
+    organization: "PALOALTO",
     date: null,
     imageUrl:
-      "https://drive.google.com/uc?export=view&id=1y_IYL3Mt9nUhOgUVc_lWE8SiURo80pYX",
-    linkUrl:
-      "https://ninjasfiles.s3.amazonaws.com/certificate_of_event_srm_coding_competition_25fc4ef7bb7e01fa2e03.pdf", // No link available
+      "https://drive.google.com/uc?export=view&id=1kJrgAVbA82I6efI3x9EcrCTIeSRPPeO6",
+    linkUrl: null,
+  },
+  {
+    type: "Participation",
+    title: "FUNDAMENTALS OF NEWTORK",
+    organization: "PALOALTO",
+    date: null,
+    imageUrl:
+      "https://drive.google.com/uc?export=view&id=1SAOy-RJ6ikE-zlAO9DqWVT2d7KcX59y9",
+    linkUrl: null,
+  },
+  {
+    type: "Participation",
+    title: "FUNDAMENTALS OF CLOUD SECURITY",
+    organization: "PALOALTO",
+    date: null,
+    imageUrl:
+      "https://drive.google.com/uc?export=view&id=1X4C35uNb_toso1zEZ1QzbIkynQOKx4Nf",
+    linkUrl: null,
   },
   {
     type: "Certification",
@@ -30,46 +47,54 @@ const certifications = [
     organization: "Tapar Institute of Engineering and Techolonlgy",
     date: null,
     imageUrl:
-      "https://drive.google.com/uc?export=view&id=1ZHNImiimJOnuJD5N6M-3CrQqDfQ6XN4i",
-    linkUrl:
-      "https://verification.givemycertificate.com/v/3ca57c9f-df0e-4d1e-8d5b-2fb66ed13754",
+      "https://drive.google.com/uc?export=view&id=1kEc8uoUFtNdPhHssK8iU1l9ZzvH7tSNU",
+    linkUrl: null,
   },
 
   {
     type: "Participation",
     title: "TECH-Q QUIZ CONTEST",
     organization: "CINTEL STUDENT ASSOCIATION",
-    date: "August 2023",
+    date: null,
     imageUrl:
-      "https://drive.google.com/uc?export=view&id=1fHibZBj3r1a7zDEkDjWlL8Je24O5kg2D",
-    linkUrl:
-      "https://drive.google.com/file/d/1Zrc5_aTVWU0QYGHfiH7_LGj1pX8h7NvD/view?usp=drivesdk",
+      "https://drive.google.com/uc?export=view&id=1JSTzO21JOPMhscsOYRwmxYqzKBPxMsaj",
+    linkUrl: null,
   },
   {
     type: "Participation",
-    title: "OODP HACK 2023",
-    organization: "SRMIST",
+    title: "Virtual Internship",
+    organization: "PALOALTO",
     date: null,
     imageUrl:
-      "https://drive.google.com/uc?export=view&id=1dQxK7HErNZv_kIUMPAthLql5s0QEUkFI",
+      "https://drive.google.com/uc?export=view&id=12iCAcXsppnYkUyHW_dAQYOYJtCVNOh4u",
     linkUrl: null,
   },
   {
     type: "Achievement",
-    title: "ISA SPORTS (CRICKET)",
-    organization: "INTERNATIONAL RELATION - SRM",
+    title: "OODP in JAVA",
+    organization: "SCALER TOPIC",
     date: null,
     imageUrl:
-      "https://drive.google.com/uc?export=view&id=1YJmeMVXIdZujlM3offsH35EDxWU-9RBa",
+      "https://drive.google.com/uc?export=view&id=1CkOAM471OYiWGKFG_7lBYDKpV-7hXyQ3",
     linkUrl: null,
   },
   {
     type: "Participation",
-    title: "FUNDAMENTALS OF STUDENT AMBASSADORSHIP",
-    organization: "CINTEL STUDENT ASSOCIATION,",
-    date: "JULY 2023",
+    title: "Cyber Security and Ethical Hacking Workshop",
+    organization: null,
+    date: null,
     imageUrl:
-      "https://drive.google.com/uc?export=view&id=19MxNQjdjJkd7zjz1puuX7Wn1fn2iyGWm",
+      "https://drive.google.com/uc?export=view&id=1bKT6tYgxGpb1dKXGlPWiside1eYMg4Lh",
+    linkUrl: null,
+  },
+
+  {
+    type: "Participation",
+    title: "STAY SAFE ONLINE CAMPAIGN",
+    organization: null,
+    date: null,
+    imageUrl:
+      "https://drive.google.com/uc?export=view&id=1Z-NmUMPDnulC7kclPABGuV3sM63dIaZm",
     linkUrl: null,
   },
 ];
