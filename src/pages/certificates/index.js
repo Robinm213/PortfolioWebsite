@@ -10,7 +10,8 @@ const certifications = [
     title: "  APPLICATIONS OF MACHINE LEARNING IN URBAN STUDIES",
     organization: "ISRO",
     date: "JUNE 2023",
-    imageUrl: "/top_coder.jpg",
+    imageUrl:
+      "https://drive.google.com/uc?export=view&id=1YztHuv-CNxBAcGVFSB3_0GcQpIn8fSZG",
     linkUrl: null,
   },
   {
@@ -18,7 +19,8 @@ const certifications = [
     title: "SRM CODING COMPETITION",
     organization: "Coding Ninjas",
     date: null,
-    imageUrl: "/hackathon_xyz.jpg",
+    imageUrl:
+      "https://drive.google.com/uc?export=view&id=1y_IYL3Mt9nUhOgUVc_lWE8SiURo80pYX",
     linkUrl:
       "https://ninjasfiles.s3.amazonaws.com/certificate_of_event_srm_coding_competition_25fc4ef7bb7e01fa2e03.pdf", // No link available
   },
@@ -27,7 +29,8 @@ const certifications = [
     title: "MEAKATHON - 5",
     organization: "Tapar Institute of Engineering and Techolonlgy",
     date: null,
-    imageUrl: "/web_dev_cert.jpg",
+    imageUrl:
+      "https://drive.google.com/uc?export=view&id=1ZHNImiimJOnuJD5N6M-3CrQqDfQ6XN4i",
     linkUrl:
       "https://verification.givemycertificate.com/v/3ca57c9f-df0e-4d1e-8d5b-2fb66ed13754",
   },
@@ -37,7 +40,8 @@ const certifications = [
     title: "TECH-Q QUIZ CONTEST",
     organization: "CINTEL STUDENT ASSOCIATION",
     date: "August 2023",
-    imageUrl: "/top_coder.jpg",
+    imageUrl:
+      "https://drive.google.com/uc?export=view&id=1fHibZBj3r1a7zDEkDjWlL8Je24O5kg2D",
     linkUrl:
       "https://drive.google.com/file/d/1Zrc5_aTVWU0QYGHfiH7_LGj1pX8h7NvD/view?usp=drivesdk",
   },
@@ -46,7 +50,8 @@ const certifications = [
     title: "OODP HACK 2023",
     organization: "SRMIST",
     date: null,
-    imageUrl: "/top_coder.jpg",
+    imageUrl:
+      "https://drive.google.com/uc?export=view&id=1dQxK7HErNZv_kIUMPAthLql5s0QEUkFI",
     linkUrl: null,
   },
   {
@@ -54,7 +59,8 @@ const certifications = [
     title: "ISA SPORTS (CRICKET)",
     organization: "INTERNATIONAL RELATION - SRM",
     date: null,
-    imageUrl: "/top_coder.jpg",
+    imageUrl:
+      "https://drive.google.com/uc?export=view&id=1YJmeMVXIdZujlM3offsH35EDxWU-9RBa",
     linkUrl: null,
   },
   {
@@ -62,7 +68,8 @@ const certifications = [
     title: "FUNDAMENTALS OF STUDENT AMBASSADORSHIP",
     organization: "CINTEL STUDENT ASSOCIATION,",
     date: "JULY 2023",
-    imageUrl: "/top_coder.jpg",
+    imageUrl:
+      "https://drive.google.com/uc?export=view&id=19MxNQjdjJkd7zjz1puuX7Wn1fn2iyGWm",
     linkUrl: null,
   },
 ];

@@ -9,14 +9,17 @@ const projects = [
     title: "First Website",
     description:
       "A personal introduction website created using HTML and CSS at the beginning of my web development journey.",
-    imageUrl: "/project1.jpg",
+    imageUrl:
+      "https://drive.google.com/uc?export=view&id=1_irreLjG6MnBea3XXhY7fIxWD7Yq7Gzh",
+    // https://drive.google.com/file/d/1_irreLjG6MnBea3XXhY7fIxWD7Yq7Gzh/view?usp=sharing
     linkUrl: "https://nittaany.github.io/newme/",
   },
   {
     title: "Mann Mauji",
     description:
       "This website serves as a platform to publicize an app, providing detailed information about its features and offering download links. Developed using HTML and CSS.",
-    imageUrl: "/project2.jpg",
+    imageUrl:
+      "https://drive.google.com/uc?export=view&id=1JKxE3lJNRzW31bYeQExGtsPB5hMdAQU1",
     linkUrl: "https://nittaany.github.io/MM/",
   },
   {
@@ -67,7 +70,7 @@ const ProjectsPage = () => {
   return (
     <div>
       <Navbar />
-      <div className="container mx-auto max-w-screen-md py-12">
+      <div className="container-fluid mx-auto max-w-screen-xl py-12 px-4">
         <h1 className="text-3xl font-bold mb-8 text-center">Projects</h1>
         <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project, index) => (
