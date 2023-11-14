@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div
       id="hero"
-      className="bg-blue-900 text-white p-8 text-center flex flex-col items-center justify-center min-h-screen animate-fade-in"
+      className="bg-sky-600 text-white p-8 text-center flex flex-col items-center justify-center min-h-screen animate-fade-in"
     >
       <Head>
         <link
@@ -15,17 +15,17 @@ const Hero = () => {
       </Head>
       <div className="img-container mb-6">
         <Image
-          src="/images/PP.jpeg"
+          src="/images/PROFILE.jpg"
           alt="profile-pic"
           width={300}
           height={300}
           className="rounded-full"
         />
       </div>
-      <h1 className="text-4xl font-bold mb-2 pacifico">Hi, I'm S U J A L !</h1>
+      <h1 className="text-4xl font-bold mb-2 pacifico">Hi, I'm R O B I N !</h1>
       <p className="mb-2">
-        I'm a Computer Science Engineering student with a passion for CYBER
-        SECURITY
+        I'm a Computer Science Engineering student with a passion for ARTIFICIAL
+        INTELLIGENCE & MACHINE LEARNING.
       </p>
 
       <p>

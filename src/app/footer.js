@@ -2,7 +2,7 @@ import React from "react";
 import "./globals.css";
 const Footer = () => {
   return (
-    <footer className="bg-blue-900 text-white py-8" id="contact">
+    <footer className="bg-sky-600 text-white py-8" id="contact">
       <div className="container mx-auto text-center">
         <div className="mb-4">
           <p className="mt-2 text-2xl text-gray-400">Connect With Me!</p>
@@ -15,22 +15,22 @@ const Footer = () => {
           </div>
           <div className="flex justify-center space-x-4">
             <a
-              href="https://www.linkedin.com/in/sujal-paudel-25b7a0267/"
+              href="https://www.linkedin.com/in/robin-mandal-412a86288/"
               className="text-blue-300 hover:text-blue-100 transition"
             >
-              LinkedIn ↗
+              LINKEDIN ↗
             </a>
             <a
-              href="https://twitter.com/SujalPaudel15"
+              href="https://www.hackerrank.com/profile/rm9939"
               className="text-blue-300 hover:text-blue-100 transition"
             >
-              Twitter ↗
+              HACKERRANK ↗
             </a>
             <a
-              href="https://github.com/Sp313"
+              href="https://github.com/Robinm213"
               className="text-blue-300 hover:text-blue-100 transition"
             >
-              Github ↗
+              GITHUB ↗
             </a>
           </div>
         </div>

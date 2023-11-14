@@ -6,7 +6,7 @@ import About from "@/pages/about";
 
 const Navbar = () => {
   return (
-    <nav className="bg-blue-900 p-4">
+    <nav className="bg-sky-600 p-4">
       <Head>
         <link
           rel="stylesheet"
@@ -17,7 +17,7 @@ const Navbar = () => {
         <div
           className={`${styles.interFont} text-white font-bold text-lg cursor-pointer `}
         >
-          <Link href="/">S U J A L</Link>
+          <Link href="/">R O B I N</Link>
         </div>
         <ul className="flex items-center space-x-4">
           <li className="link">

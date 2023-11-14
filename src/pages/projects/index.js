@@ -29,13 +29,7 @@ const projects = [
       "https://drive.google.com/uc?export=view&id=1V5nYzn0a5BEH-g6ZjgL8qBb8gtLXohsD",
     linkUrl: null,
   },
-  {
-    title: "PDM - Expense Management",
-    description:
-      "A basic Java project utilizing Java Swing. It functions similar to the Splitwise app but with a different approach.",
-    imageUrl: "/project7.jpg",
-    linkUrl: null,
-  },
+
   {
     title: "Micro-processor Based Water Level Controller",
     description:
@@ -50,7 +44,7 @@ const ProjectsPage = () => {
   return (
     <div>
       <Navbar />
-      <div className="container-fluid mx-auto max-w-screen-xl py-12 px-4">
+      <div className=" bg-sky-950 container-fluid mx-auto max-w-screen-xl py-12 px-4">
         <h1 className="text-3xl font-bold mb-8 text-center">Projects</h1>
         <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project, index) => (

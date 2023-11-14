@@ -7,103 +7,66 @@ import "@/app/globals.css";
 const certifications = [
   {
     type: "Participation",
-    title: "FUNDAMENTALS OF SOC",
-    organization: "PALOALTO",
+    title: "APPLICATION OF MACHINE LEARNING IN URBAN STUDIES",
+    organization: "ISRO",
     date: null,
     imageUrl:
-      "https://drive.google.com/uc?export=view&id=1rPfAwUmaxt213SrWCSgaGrHTedUh7PiR",
+      "https://drive.google.com/uc?export=view&id=1IzLLMaLZX-vo6OwmbAlRwe1gxvSypfbl",
     linkUrl: null,
   },
   {
     type: "Participation",
-    title: "FUNDAMENTALS OF SOC",
-    organization: "PALOALTO",
+    title: "INTRO TO C++",
+    organization: "SIMPLELEARN",
     date: null,
     imageUrl:
-      "https://drive.google.com/uc?export=view&id=1kJrgAVbA82I6efI3x9EcrCTIeSRPPeO6",
+      "https://drive.google.com/uc?export=view&id=1Iz6PgsgV_rLCYktsN9wLKQo87Raikh27",
     linkUrl: null,
   },
   {
     type: "Participation",
-    title: "FUNDAMENTALS OF NEWTORK",
-    organization: "PALOALTO",
+    title: "PROGRAMMING FOR PROBLEM SOLVING",
+    organization: "CODETANTRA",
     date: null,
     imageUrl:
-      "https://drive.google.com/uc?export=view&id=1SAOy-RJ6ikE-zlAO9DqWVT2d7KcX59y9",
+      "https://drive.google.com/uc?export=view&id=1J0PLwzJzRPBWJB5MiHmmkECYCzw9XbGc",
     linkUrl: null,
   },
   {
-    type: "Participation",
-    title: "FUNDAMENTALS OF CLOUD SECURITY",
-    organization: "PALOALTO",
+    type: "certification",
+    title: "OODP HACK",
+    organization: "SRMIST",
     date: null,
     imageUrl:
-      "https://drive.google.com/uc?export=view&id=1X4C35uNb_toso1zEZ1QzbIkynQOKx4Nf",
+      "https://drive.google.com/uc?export=view&id=1J6L4qE9Fls8uiI3AE5Cx4WvhYlDOxBgO",
     linkUrl: null,
   },
   {
     type: "Certification",
-    title: "MEAKATHON - 5",
-    organization: "Tapar Institute of Engineering and Techolonlgy",
+    title: "BACKEND WEBDEV BOOTCAMP",
+    organization: "DEVTOWN",
     date: null,
     imageUrl:
-      "https://drive.google.com/uc?export=view&id=1kEc8uoUFtNdPhHssK8iU1l9ZzvH7tSNU",
+      "https://drive.google.com/uc?export=view&id=1J6YGoOW_yygKw0YSVtMIYrmXdT_M2wzf",
     linkUrl: null,
   },
 
   {
-    type: "Participation",
-    title: "TECH-Q QUIZ CONTEST",
-    organization: "CINTEL STUDENT ASSOCIATION",
+    type: "certification",
+    title: "APPRECIATION",
+    organization: "DEVTOWN",
     date: null,
     imageUrl:
-      "https://drive.google.com/uc?export=view&id=1JSTzO21JOPMhscsOYRwmxYqzKBPxMsaj",
-    linkUrl: null,
-  },
-  {
-    type: "Participation",
-    title: "Virtual Internship",
-    organization: "PALOALTO",
-    date: null,
-    imageUrl:
-      "https://drive.google.com/uc?export=view&id=12iCAcXsppnYkUyHW_dAQYOYJtCVNOh4u",
-    linkUrl: null,
-  },
-  {
-    type: "Achievement",
-    title: "OODP in JAVA",
-    organization: "SCALER TOPIC",
-    date: null,
-    imageUrl:
-      "https://drive.google.com/uc?export=view&id=1CkOAM471OYiWGKFG_7lBYDKpV-7hXyQ3",
-    linkUrl: null,
-  },
-  {
-    type: "Participation",
-    title: "Cyber Security and Ethical Hacking Workshop",
-    organization: null,
-    date: null,
-    imageUrl:
-      "https://drive.google.com/uc?export=view&id=1bKT6tYgxGpb1dKXGlPWiside1eYMg4Lh",
-    linkUrl: null,
-  },
-
-  {
-    type: "Participation",
-    title: "STAY SAFE ONLINE CAMPAIGN",
-    organization: null,
-    date: null,
-    imageUrl:
-      "https://drive.google.com/uc?export=view&id=1Z-NmUMPDnulC7kclPABGuV3sM63dIaZm",
+      "https://drive.google.com/uc?export=view&id=1J4UD2Os5mMIokR-ZEGLY_9_6NXwWpxJ3",
     linkUrl: null,
   },
 ];
 
 const CertificationsPage = () => {
   return (
-    <div>
+    <div className="bg-sky-950">
       <Navbar />
-      <div className="container mx-auto max-w-screen-xl py-12 px-4">
+      <div className="  container mx-auto max-w-screen-xl py-12 px-4">
         <h1 className="text-3xl font-bold mb-8 text-center">
           Certifications & Achievements
         </h1>
