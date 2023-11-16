@@ -6,12 +6,20 @@ import "@/app/globals.css";
 
 const projects = [
   {
+    title: "Enrollment Management System",
+    description:
+      "Simple comparison between the two Data types",
+    imageUrl:
+      null,
+    linkUrl: "https://drive.google.com/drive/folders/1PMs7ojy1-BCvFHbZ5Q2cTmKQE0_4DEXT",
+  },
+  {
     title: "ATM Banking System",
     description:
       "A basic C-language mini-project created as part of my learning journey.",
     imageUrl:
       "https://drive.google.com/uc?export=view&id=1BkEDzr0g3TrvLQhyFBS2042V0jdBdLxu",
-    linkUrl: null,
+    linkUrl: "https://drive.google.com/file/d/1jGgJLoY-4oeNmShwuKvLnHY-8MI7AoP5/view?usp=drivesdknull",
   },
   {
     title: "Car Rental System",
@@ -21,23 +29,23 @@ const projects = [
       "https://drive.google.com/uc?export=view&id=1Wtw2XU04tGmTMWof8aT5kQaO9vbZ0rgJ",
     linkUrl: null,
   },
-  {
-    title: "Weather App",
-    description:
-      "A clean weather app created using Python Tkinter with API integration for live updates.",
-    imageUrl:
-      "https://drive.google.com/uc?export=view&id=1V5nYzn0a5BEH-g6ZjgL8qBb8gtLXohsD",
-    linkUrl: null,
-  },
+  // {
+  //   title: "Weather App",
+  //   description:
+  //     "A clean weather app created using Python Tkinter with API integration for live updates.",
+  //   imageUrl:
+  //     "https://drive.google.com/uc?export=view&id=1V5nYzn0a5BEH-g6ZjgL8qBb8gtLXohsD",
+  //   linkUrl: null,
+  // },
 
-  {
-    title: "Micro-processor Based Water Level Controller",
-    description:
-      "A project based on Arduino Uno that monitors the water level in a tank and can control the pump accordingly.",
-    imageUrl:
-      "https://drive.google.com/uc?export=view&id=1hc6RkYuLSvmLPYgNpeEpWLmnh9gQjbId",
-    linkUrl: null,
-  },
+  // {
+  //   title: "Micro-processor Based Water Level Controller",
+  //   description:
+  //     "A project based on Arduino Uno that monitors the water level in a tank and can control the pump accordingly.",
+  //   imageUrl:
+  //     "https://drive.google.com/uc?export=view&id=1hc6RkYuLSvmLPYgNpeEpWLmnh9gQjbId",
+  //   linkUrl: null,
+  // },
 ];
 
 const ProjectsPage = () => {
