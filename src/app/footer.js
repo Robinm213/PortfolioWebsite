@@ -20,12 +20,12 @@ const Footer = () => {
             >
               LINKEDIN ↗
             </a>
-            <a
+            {/* <a
               href="https://www.hackerrank.com/profile/rm9939"
               className="text-blue-300 hover:text-blue-100 transition"
             >
               HACKERRANK ↗
-            </a>
+            </a> */}
             <a
               href="https://github.com/Robinm213"
               className="text-blue-300 hover:text-blue-100 transition"
