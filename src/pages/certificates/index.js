@@ -32,15 +32,15 @@ const certifications = [
       "https://drive.google.com/uc?export=view&id=1J0PLwzJzRPBWJB5MiHmmkECYCzw9XbGc",
     linkUrl: null,
   },
-  {
-    type: "certification",
-    title: "OODP HACK",
-    organization: "SRMIST",
-    date: null,
-    imageUrl:
-      "https://drive.google.com/uc?export=view&id=1J6L4qE9Fls8uiI3AE5Cx4WvhYlDOxBgO",
-    linkUrl: null,
-  },
+  // {
+  //   type: "certification",
+  //   title: "OODP HACK",
+  //   organization: "SRMIST",
+  //   date: null,
+  //   imageUrl:
+  //     "https://drive.google.com/uc?export=view&id=1J6L4qE9Fls8uiI3AE5Cx4WvhYlDOxBgO",
+  //   linkUrl: null,
+  // },
   {
     type: "Certification",
     title: "BACKEND WEBDEV BOOTCAMP",
@@ -51,15 +51,15 @@ const certifications = [
     linkUrl: null,
   },
 
-  {
-    type: "certification",
-    title: "APPRECIATION",
-    organization: "DEVTOWN",
-    date: null,
-    imageUrl:
-      "https://drive.google.com/uc?export=view&id=1J4UD2Os5mMIokR-ZEGLY_9_6NXwWpxJ3",
-    linkUrl: null,
-  },
+  // {
+  //   type: "certification",
+  //   title: "APPRECIATION",
+  //   organization: "DEVTOWN",
+  //   date: null,
+  //   imageUrl:
+  //     "https://drive.google.com/uc?export=view&id=1J4UD2Os5mMIokR-ZEGLY_9_6NXwWpxJ3",
+  //   linkUrl: null,
+  // },
 ];
 
 const CertificationsPage = () => {
